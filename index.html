@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisna Portfolio</title>
+    <link rel="stylesheet" href="src/output.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+
+
+
+
+    <!-- Animasi fade in pakai Tailwind + keyframes custom -->
+    <style>
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .animate-fadeInUp {
+        animation: fadeInUp 0.8s ease-out forwards;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white text-gray-900 font-sans">
+
+    <!-- Navbar -->
+    <header class="bg-black text-white flex justify-between items-center px-10 py-4 shadow-md sticky top-0 z-50"> 
+    <!--icons sosmed-->
+    <script src="https://kit.fontawesome.com/a2e0a6c7c8.js" crossorigin="anonymous"></script>
+    <!-- AOS Script -->
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script> 
+            <script>
+                AOS.init({
+    duration: 1000, // durasi animasi (ms)
+    once: true,     // animasi hanya sekali
+    easing: 'ease-in-out'
+        });
+</script>
+
+
+  <h1 class="text-2xl font-bold tracking-wide text-White-500">Wisna.</h1>
+    <nav class="space-x-6 text-sm">
+        <a href="#intro" class="hover:text-gray-400 transition duration-300 ease-in-out" >Intro</a>
+        <a href="#work" class="hover:text-gray-400 transition duration-300 ease-in-out" >Experiences</a>
+        <a href="#gallery" class="hover:text-gray-400 transition duration-300 ease-in-out"  >Gallery Work</a>
+        <a href="#hobby" class="hover:text-gray-400 transition duration-300 ease-in-out" >Hobby</a>
+    </nav>    
+</header>
+
+    <!-- Intro Section -->
+    <section id="intro"  class="container mx-auto flex flex-col md:flex-row items-center gap-10 py-20 px-6 animate-fadeInUp">
+      <div class="flex-1">
+        <h1 class="text-4xl font-bold tracking-wide text-White-500">Intro.</h1>
+        <h2 class="text-lg font-semibold uppercase mb-2">Hello , I am Wisna , a IT & Frontend Developer Based in Bali</h2>
+        <p class="text-sm text-gray-500">
+          I am a person who was born in an area called Malang, Indonesia. December 23, 1995.
+          I have lived since childhood in Denpasar, Bali until now. 
+          Previously I studied in the Department of Computer Engineering and Networking and now I work at BALILAVU cashier application software.</p>
+      </div>
+      <div class="flex-1">
+        <img
+          src="src/intro wisna.jpeg"
+          alt="Intro Image"
+          class="rounded-lg shadow-lg w-full max-w-md mx-auto hover:scale-105 transition duration-500 ease-in-out"
+        />
+      </div>
+    </section>
+
+    <!-- Work Section 1 -->
+    <section id="work"
+      class="container mx-auto py-16 px-6 border-t border-gray-200 animate-fadeInUp" >
+      <h1 class="text-4xl font-bold tracking-wide text-White-500">Experient.</h1>
+      <h3 class="text-2xl font-semibold mb-8">IT STAFF Di PT. BALI PAWIWAHAN ( COCO GROUP ) 2014 - 2016</h3>
+
+      <div class="space-y-4">
+        <div
+          class="bg-gray-50 p-5 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+          <h4 class="font-semibold mb-2">IT STAFF Di PT. BALI PAWIWAHAN ( COCO GROUP )</h4>
+          <p class="text-sm text-gray-600">
+            1. LAN / WAN / TCP IP
+          </p>
+          <p class="text-md text-gray-600">
+            2. Printer (epson impact & Tinta) Troubleshoot and Maintainance
+          </p>
+          <p class="text-md text-gray-600">
+            3. Checking & Support troubleshooting at every Outlet </p>
+          <p class="text-md text-gray-600">
+            4. Setting & troubleshooting of email outlook</p>
+          <p class="text-md text-gray-600">
+            5. Installation Hardware PC and Software OS , Application</p>
+          <p class="text-md text-gray-600">
+            6. Monitoring Network (Mikrotik) and Remote Support (Teamviewer,Ratmin)</p>
+          <p class="text-md text-gray-600">
+            7. Setup Mesin Absensi sidik jari
+          </p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Work Section 2 -->
+    <section
+      class="container mx-auto py-16 px-6 border-t border-gray-200 animate-fadeInUp" >
+      <h3 class="text-2xl font-semibold mb-8">TECHNICAL SUPPORT Di PT. SOLUSINDO BINTANG PRATAMA ( INTERNET PROVIDER ) 2016 - 2018</h3>
+
+      <div class="space-y-4">
+        <div
+          class="bg-gray-50 p-5 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+          <h4 class="font-semibold mb-2">TECHNICAL SUPPORT Di PT. SOLUSINDO BINTANG PRATAMA ( INTERNET PROVIDER )</h4>
+          <p class="text-md text-gray-600">
+            1. LAN / WAN / WIRELESS /TCP IP , Vlan </p>
+          <p class="text-md text-gray-600">
+            2. Installation New Client with Radio Access Point at Tower ( Mikrotik Antena Grid 2,4GHz/ Unifi NanoStation )</p>
+          <p class="text-md text-gray-600">
+            3. Installation Access Point , Router , Switch at Client with ( Mikrotik , TP Link , UniFi , Netgear , Ciena ) </p>
+          <p class="text-md text-gray-600">
+            4. Checking , Monitoring & Support troubleshooting at every Client</p>
+            <p class="text-md text-gray-600">
+            5. Setup network connection at Event in Jakarta ( Event Firebase Google , Event Museum )</p>
+            <p class="text-md text-gray-600">
+            6. Installation PABX Voip at Palangkaraya ( Soundwin )</p>
+            <p class="text-md text-gray-600">
+            7. Installation CCTV at Perumahan Fujihome Tukad Balian</p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Work Section 3 -->
+    <section
+      class="container mx-auto py-16 px-6 border-t border-gray-200 animate-fadeInUp" >
+      <h3 class="text-2xl font-semibold mb-8">IT Di PT BALILAVU ( BALILAVU CASHIER APPLICATION ) 2018 - 2025</h3>
+
+      <div class="space-y-4">
+        <div
+          class="bg-gray-50 p-5 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+          <h4 class="font-semibold mb-2">IT Di PT BALILAVU ( BALILAVU CASHIER APPLICATION )</h4>
+          <p class="text-md text-gray-600">
+            1. LAN / WAN </p>
+          <p class="text-md text-gray-600">
+            2. Installation New Client with Printer Epson , Router and Access Point ( UniFi , Tenda , TP Link )</p>
+          <p class="text-md text-gray-600">
+            3. Installation Backend System Lavu POS ( Menu , Layout , User Management , Payment , Report , Stock ) </p>
+          <p class="text-md text-gray-600">
+            4. Installation Application Lavu POS ( iPad , iPhone , Web Browser )</p>
+          <p class="text-md text-gray-600">
+            5. Training How to Use Lavu POS ( iPad , iPhone , Web Browser )</p>
+          <p class="text-md text-gray-600">
+            6. Troubleshooting Lavu POS ( Connection , Printer , Reconciliation Report ) </p>
+          <p class="text-md text-gray-600">
+            7. Update The Lavu POS Application </p>
+          <p class="text-md text-gray-600">
+            8. Design Menu , Brosur , Banner at Jamuan / Kana Katering </p>
+          <p class="text-md text-gray-600">
+            9. Take Monthly Money from Client </p>
+          <p class="text-md text-gray-600">
+            10. Share brochures and do demos to potential customers</p>
+
+          </div>
+      </div>
+    </section>
+
+    <!-- Work Section 3 -->
+    <section
+      class="container mx-auto py-16 px-6 border-t border-gray-200 animate-fadeInUp" >
+      <h3 class="text-2xl font-semibold mb-8">FREELANCE 2023 - 2025</h3>
+
+      <div class="space-y-4">
+        <div
+          class="bg-gray-50 p-5 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300 ease-in-out">
+          <h4 class="font-semibold mb-2">FREELANCE WEBSITE, APP , CONTENT CREATION</h4>
+          <p class="text-md text-gray-600">
+            1. CREATING PORTOFOLIO PROJECT WITH ( HTML , CSS , JS , Tailwind CSS ) </p>
+          <p class="text-md text-gray-600">
+            2. WEB BASE APPS MEMBERGYM WITH ( PHP , MYSQL , HTML , JS , Tailwind CSS )</p>
+          <p class="text-md text-gray-600">
+            3. CONTENT CREATION AT BILLZARD BILLIARD ( VIDEO/POST EDITING ) </p>
+          </div>
+      </div>
+    </section>
+
+<!-- Testiomonial Section -->    
+
+  <!-- Carousel Container -->
+            <div class="carousel-container relative overflow-hidden">          
+                <!-- Logo Track -->
+                <div class="flex animate-scroll-left">
+                    <!-- Set pertama logo -->
+                    <div class="flex items-center gap-6 px-6">
+                        <!-- Ganti src  path logo lokal  -->
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/shishi.png" alt="Client 1" class="mx-12 h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/mauri.png" alt="Client 2" class="mx-12 h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/cc.png" alt="Client 3" class="h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/lls.png" alt="Client 4" class="h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/bonito.jpeg" alt="Client 5" class="h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/bella.png" alt="Client 6" class="h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/fabbrica.png" alt="Client 7" class="h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/lilla.png" alt="Client 8" class="h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/nook.jpg" alt="Client 8" class="h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/takumi.png" alt="Client 8" class="h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Duplikasi set untuk infinite scroll -->
+                    <div class="flex items-center gap-6 px-6">
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/shishi.png" alt="Client 1" class="mx-12 h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/mauri.png" alt="Client 2" class="mx-12 h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/cc.png" alt="Client 3" class="mx-12h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/lls.png" alt="Client 4" class="mx-12 h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/bonito.jpeg" alt="Client 5" class="mx-12 h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/bella.png" alt="Client 6" class="mx-12 h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/fabbrica.png" alt="Client 7" class="mx-12 h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                        
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/lilla.png" alt="Client 8" class="mx-12 h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/nook.jpg" alt="Client 8" class="h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+
+                        <div class="flex-shrink-0 group">
+                            <div class="bg-white rounded-lg p-4 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                                <img src="src/takumi.png" alt="Client 8" class="h-12 lg:h-16 w-auto object-contain filter grayscale hover:grayscale-0 transition-all duration-300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    <!-- Gallery Section -->
+<section id="gallery" class="container mx-auto py-20 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-2">
+    Highlight what’s my works before in pictures
+  </h2>
+  <p class="text-gray-500 mb-10">
+    This is what makes these images special.
+  </p>
+
+  <div class=" grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+    <img src="src/mikrotik1.jpeg" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery1" />
+    <img src="src/mb.JPG" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery2" />
+    <img src="src/linux.JPG" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery3" />
+    <img src="src/ciena.JPG" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery4" />
+    <img src="src/eventjkt.JPG" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery5" />
+    <img src="src/pabx.png" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery6" />
+    <img src="src/unifi.JPG" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery7" />
+    <img src="src/setupevent.JPG" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery8" />
+    <img src="src/nasiwoka.png" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery9" />
+    <img src="src/billizard1.png" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery10" />
+    <img src="src/1.jpg" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery11" />
+    <img src="src/buy 2.jpg" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery12" />
+    <img src="src/tmu220.jpeg" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery13" />
+    <img src="src/design2.jpeg" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery14" />
+    <img src="src/designlavu1.jpeg" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery15" />
+    <img src="src/lavu1.jpeg" class="rounded-xl shadow hover:scale-105 transition duration-300 ease-in-out h-64 w-full object-cover" alt="gallery16" />
+  </div>
+</section>
+
+<!-- Hobby Section -->
+<section id="hobby" class="py-20">
+  <div class="bg-black text-white text-center py-10">
+    <h2 class="text-3xl font-bold mb-2">Hobbies</h2>
+    <p class="text-gray-300">Go ahead and say just a little more about what you do.</p>
+  </div>
+
+  <div class="container mx-auto px-12 py-12 grid grid-cols-2 md:grid-cols-3 gap-6">
+    <div class="rounded-xl h-64 shadow-lg w-full max-w-md hover:scale-105 transition duration-300">
+      <img src="src/cycling.jpg" class="rounded-lg w-full h-64 object-cover" alt="cycling">
+      <h3 class="text-black-700 font-semibold text-lg text-center">Cycling</h3>
+    </div>
+    <div class="rounded-xl h-64 shadow-lg w-full max-w-md hover:scale-105 transition duration-300">
+      <img src="src/gaming.jpg" class="rounded-lg w-full h-64 object-cover" alt="gaming">
+      <h3 class="text-black-700 font-semibold text-lg text-center">Gaming</h3>
+    </div>
+    <div class="rounded-xl h-64 shadow-lg w-full max-w-md hover:scale-105 transition duration-300">
+      <img src="src/gym.jpg" class="rounded-lg w-full h-64 object-cover" alt="gym">
+      <h3 class="text-black-700 font-semibold text-lg text-center" >Gym</h3>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black border-t py-10 text-center text-white">
+  <h3 class="font-semibold text-lg">Thank you for coming</h3>
+  <p class="text-sm mb-6">
+    Descriptive line about what your company does.
+  </p>
+
+  <div class="flex justify-center hover:text-black-700 space-x-6 text-3xl">
+    <a href="https://www.instagram.com/wisna.sen/" target="_blank">
+      <i class="ri-instagram-line"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/wisna-sen/" target="_blank">
+      <i class="ri-github-line hover:text-blue-500"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/wisna-sen/" target="_blank">
+      <i class="ri-email-line hover:text-blue-500"></i>
+    </a>
+  </div>
+</footer>
+
+    <!-- Animasi left -->
+<style>
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-left {
+  display: flex;
+  animation: slide 40s linear infinite;
+  width:max-content
+}
+
+.animate-scroll-left:hover {
+  animation-play-state: paused;
+}
+
+</style>
+
+
+  </body>
+</html>
